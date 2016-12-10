@@ -2699,19 +2699,24 @@
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 6em 0 4em 0;
 	}
 
 		.main.style1 {
-			background: #fff;
+			background: rgb(117,181,151);
+			color: rgba(255, 255, 255, 0.75);
+		}
+
+		.main.style1 h2 {
+			color: rgba(255, 255, 255, 0.75);		
 		}
 
 		.main.style2 {
-			background-color: #333;
-			color: rgba(255, 255, 255, 0.75);
+			background-color: #eee;
+			color: rgba(120,120,120,0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("/header.jpg");
-			background-size: auto,							cover;
+/*			background-image: url("images/overlay1.png"), url("/header.jpg");
+*/			background-size: auto,							cover;
 		}
 
 			.main.style2 a {
@@ -2723,7 +2728,7 @@
 				}
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
-				color: #ffffff;
+				color: rgba(120,120,120,0.75);
 			}
 
 			.main.style2 header p {
@@ -2807,6 +2812,8 @@
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		width: 100%;
+		height: 770px;
 	}
 
 		#header a {
@@ -2890,7 +2897,7 @@
 		}
 
 		#header h1 {
-			margin: 0;
+			margin-left: 15px;
 		}
 
 		#header p {
@@ -2898,7 +2905,7 @@
 		}
 
 		#header .actions {
-			margin: 2.5em 0 0 0;
+			margin: 1em 0 0 0;
 			position: relative;
 		}
 
@@ -2928,6 +2935,7 @@
 			opacity: 1;
 			position: relative;
 			z-index: 1;
+			margin-top: 5%;
 		}
 
 			#header .inner .actions {
@@ -2953,12 +2961,12 @@
 			transition: opacity 1s ease;
 			background-image: linear-gradient(45deg, #4fa49a, #4361c2);
 			content: '';
+			width: 100%;
 			height: 100%;
 			left: 0;
 			opacity: 0;
 			position: absolute;
 			top: 0;
-			width: 100%;
 		}
 
 	body.is-loading #header .inner {
