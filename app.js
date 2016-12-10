@@ -8,11 +8,6 @@ var app = express();
 app.use(express.static(__dirname + '/assets'));
 app.use(express.static(__dirname + '/images'));
 
-// app.use("/css", express.static(__dirname + '/assets/css'));
-// app.use("/js", express.static(__dirname + '/assets/js'));
-// app.use("/images", express.static(__dirname + '/assets/images'));
-// app.use("/fonts", express.static(__dirname + '/assets/fonts'));
-
 // Set EJS as templating language
 app.set('views', __dirname + '/views');
 app.engine('.html', require('ejs').__express);
