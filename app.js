@@ -5,8 +5,8 @@ var bodyParser = require('body-parser');
 var app = express();
 
 // Set up the public directory to serve our Javascript file
-app.use(express.static(__dirname + '/assets'));
-app.use(express.static(__dirname + '/images'));
+app.use(express.static(__dirname + '/assets', { redirect : false }));
+app.use(express.static(__dirname + '/images', { redirect : false }));
 
 // Set EJS as templating language
 app.set('views', __dirname + '/views');
@@ -33,6 +33,7 @@ app.get("/", function (request, response) {
 // GET - Catch All route
 app.get("*", function(request,response){
 	response.redirect("/");
+	// response.send("Sorry. Nothing lives here.");
 });
 
 
