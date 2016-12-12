@@ -5,7 +5,7 @@
 Final project for Communciation & Technology at NYUAD, Fall 2016.
 Created by Cynthia, Leonore, Jantima, Martin. 
 
-Website Description: 
+###Website Description: 
 
 We have paired with a wide array of designers and service providers, enabling you to experience and shop specific to your personal needs and interests. Simply get a membership and obtain access to JungleBox from any and every room. 
 
