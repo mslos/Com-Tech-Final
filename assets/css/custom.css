@@ -1,0 +1,71 @@
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+/*.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.video-container .after {
+    color: #FFF;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: none;
+}
+.video-container:active .after {
+    display: block;
+    background: rgba(0, 0, 0, 0);
+    display:none;
+}*/
+@media screen and (max-width: 1010px) {
+  .video-container .video-overlay {
+    display:none;
+  }
+}
+
+@media screen and (min-width: 0px) {
+  #info {
+    display:none;
+  }
+}
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#info {
+  background: #4fa49a;
+  /*linear-gradient(75deg, #75b597 5%, #4fa49a 30%, #63b6ff);*/
+}
+.video-container .video-overlay {
+    color: #FFF;
+    background: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container .video-overlay strong {
+    color: #FFF;
+}
+
+.video-container .video-overlay h2 {
+    color: #FFF;
+}
+
+.video-container .video-overlay h4 {
+    color: #FFF;
+}
+
+/*# show-info {
+  display:none;
+}*/
