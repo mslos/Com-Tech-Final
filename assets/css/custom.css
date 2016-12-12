@@ -25,14 +25,16 @@
   .video-container .video-overlay {
     display:none;
   }
+  #show-info {
+    display:none !important;
+  }
 }
 
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 1010px) {
   #info {
     display:none;
   }
 }
-
 
 .video-container {
     position: relative;
@@ -41,7 +43,7 @@
 }
 
 #info {
-  background: #4fa49a;
+  /*background: #4fa49a;*/
   /*linear-gradient(75deg, #75b597 5%, #4fa49a 30%, #63b6ff);*/
 }
 .video-container .video-overlay {
