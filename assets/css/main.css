@@ -2708,7 +2708,7 @@
 		}
 
 		.main.style1 h2 {
-			color: rgba(255, 255, 255, 0.75);		
+			color: rgba(255, 255, 255, 0.75);
 		}
 
 		.main.style2 {
@@ -2816,7 +2816,7 @@
 		position: relative;
 		text-align: center;
 		width: 100%;
-		height: 770px;
+		height: 100vh;
 	}
 
 		#header a {
