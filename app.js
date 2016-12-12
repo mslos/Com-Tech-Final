@@ -32,8 +32,8 @@ app.get("/", function (request, response) {
 
 // GET - Catch All route
 app.get("*", function(request,response){
-	response.redirect("/");
-	// response.send("Sorry. Nothing lives here.");
+	// response.redirect("/");
+	response.send("Sorry. Nothing lives here.");
 });
 
 
